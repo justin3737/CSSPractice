@@ -7,6 +7,7 @@ Here provide some CSS examples for beginners.
 use css attribute 
 * pseudo elements
 * font-awesome
+
 [--> online demo](http://htmlpreview.github.io/?https://github.com/justin3737/CSSPractice/blob/master/examples/01_list_group/ok/index.html)
 ![image](https://raw.githubusercontent.com/justin3737/CSSPractice/master/img/list_group.png)
 ---------------
@@ -14,6 +15,7 @@ use css attribute
 use css attribute 
 * display:inline-block
 * flexbox
+
 ![image](https://raw.githubusercontent.com/justin3737/CSSPractice/master/img/pagination.png)
 ---------------
 
