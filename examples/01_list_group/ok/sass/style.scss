@@ -41,6 +41,10 @@ body {
 	.list-item {
 		float: left;
 	}
+
+	&:hover {
+		background-color: #f5f5f5;
+	}
 }
 
 /* 每一行最後一個箭頭的空間 */
