@@ -4,12 +4,16 @@ Use font awesome for all icons.<BR>
 Here provide some CSS examples for beginners.
 
 ## [List Group](https://github.com/justin3737/CSSPractice/tree/master/examples/01_list_group) ##
-
+use css attribute 
+* pseudo elements
+* font-awesome
 [--> online demo](http://htmlpreview.github.io/?https://github.com/justin3737/CSSPractice/blob/master/examples/01_list_group/ok/index.html)
 ![image](https://raw.githubusercontent.com/justin3737/CSSPractice/master/img/list_group.png)
 ---------------
 ## [Pagination](https://github.com/justin3737/CSSPractice/tree/master/examples/02_pagination) ##
-
+use css attribute 
+* display:inline-block
+* flexbox
 ![image](https://raw.githubusercontent.com/justin3737/CSSPractice/master/img/pagination.png)
 ---------------
 
