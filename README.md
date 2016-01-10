@@ -1,5 +1,6 @@
 # CSSPractice
-Learn CSS and Practice.<BR>
+Learn CSS/SCSS and Practice.<BR>
+Use font awesome for all icons.<BR>
 Here provide some CSS examples for beginners.
 
 ## List Group ##
