@@ -1,10 +1,13 @@
 # CSSPractice
-Before we started:<BR>
+### Before we started:###
 [使用scss來加速寫css吧!](http://blog.visioncan.com/2011/sass-scss-your-css/)<BR>
 [Sass 與 Compass?](http://ithelp.ithome.com.tw/question/10127659)<BR>
 
-Learn CSS/SCSS and Practice.<BR>
+### We will learn? ###
+CSS/SCSS/SASS and Practice.<BR>
 Use font awesome for all icons.<BR>
+
+
 Here provide some CSS examples for beginners.
 
 ## [List Group](https://github.com/justin3737/CSSPractice/tree/master/examples/01_list_group) ##
