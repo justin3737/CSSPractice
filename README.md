@@ -24,6 +24,7 @@ use css attribute
 * flexbox
 * css transition/transform
 * [em? pt? px?](http://www.puritys.me/docs-blog/article-22-CSS-%E5%AD%97%E5%9E%8B%E5%A4%A7%E5%B0%8F-pt,-px-,-em-,-%E7%99%BE%E5%88%86%E6%AF%94-percent-%E4%B9%8B%E6%AF%94%E8%BC%83.html)
+* [transition-function list](http://easings.net/zh-cn)
 
 [--> online demo](http://htmlpreview.github.io/?https://github.com/justin3737/CSSPractice/blob/master/examples/02_pagination/ok/index.html)
 ![image](https://raw.githubusercontent.com/justin3737/CSSPractice/master/img/pagination.png)
