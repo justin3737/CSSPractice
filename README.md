@@ -22,6 +22,7 @@ use css attribute
 use css attribute 
 * display:inline-block
 * flexbox
+* [em? pt? px?](http://www.puritys.me/docs-blog/article-22-CSS-%E5%AD%97%E5%9E%8B%E5%A4%A7%E5%B0%8F-pt,-px-,-em-,-%E7%99%BE%E5%88%86%E6%AF%94-percent-%E4%B9%8B%E6%AF%94%E8%BC%83.html)
 
 ![image](https://raw.githubusercontent.com/justin3737/CSSPractice/master/img/pagination.png)
 ---------------
