@@ -40,11 +40,6 @@ use css attribute
 ![image](https://raw.githubusercontent.com/justin3737/CSSPractice/master/img/login_view.jpg)
 ---------------
 
-## [Setting Page](https://github.com/justin3737/CSSPractice/tree/master/examples/05_setting_page) ##
-
-![image](https://raw.githubusercontent.com/justin3737/CSSPractice/master/img/setting_page.png)
----------------
-
 ## [Confirm Box](https://github.com/justin3737/CSSPractice/tree/master/examples/06_confirm_box) ##
 
 ![image](https://raw.githubusercontent.com/justin3737/CSSPractice/master/img/confirm_box.png)
