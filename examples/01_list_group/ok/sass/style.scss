@@ -48,11 +48,11 @@ body {
 }
 
 /* 每一行最後一個箭頭的空間 */
+/* 使用虛擬元素:before, :after */
 .list-arrow {
 	padding-right: 24px;
 	position     : relative;
 	
-	/* 使用虛擬元素:before, :after */
 	&:after {
 		content     : '';
 		height      : 8px;
