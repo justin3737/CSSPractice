@@ -60,6 +60,12 @@ body {
   font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
 }
 
+/*＊  
+	box shadow 標準語法:
+	box-shadow: x y blur spread color inset;
+	compass sass 語法:
+	single-box-shadow($hoff, $voff, $blur, $spread, $color, $inset)
+*/
 .wrap {
   width: 365px;
   height: 593px;
@@ -69,6 +75,9 @@ body {
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   border-radius: 8px;
+  -moz-box-shadow: 3px 3px 50px 5px #d4ddf2;
+  -webkit-box-shadow: 3px 3px 50px 5px #d4ddf2;
+  box-shadow: 3px 3px 50px 5px #d4ddf2;
 }
 
 .cover-image {
@@ -101,6 +110,10 @@ body {
   bottom: 0px;
   width: 100%;
   height: 112px;
+  overflow: hidden;
+  -moz-border-radius: 0 0 8px 8px;
+  -webkit-border-radius: 0;
+  border-radius: 0 0 8px 8px;
 }
 .menu-wrap .slip-line {
   width: 100%;
