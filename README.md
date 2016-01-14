@@ -33,7 +33,11 @@ use css attribute
 ## [Info View](https://github.com/justin3737/CSSPractice/tree/master/examples/03_info_view) ##
 
 * learn how to create HTML/CSS from PSD files
+* css property: background-color linear-gradient
+* css property: box-shadow 
+* no supprt RWD
 
+[--> online demo](http://htmlpreview.github.io/?https://github.com/justin3737/CSSPractice/blob/master/examples/03_info_view/ok/index.html)
 ![image](https://raw.githubusercontent.com/justin3737/CSSPractice/master/img/info_view.jpg)
 ---------------
 
