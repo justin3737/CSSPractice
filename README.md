@@ -32,15 +32,21 @@ use css attribute
 
 ## [Info View](https://github.com/justin3737/CSSPractice/tree/master/examples/03_info_view) ##
 
+* learn how to create HTML/CSS from PSD files
+
 ![image](https://raw.githubusercontent.com/justin3737/CSSPractice/master/img/info_view.jpg)
 ---------------
 
 ## [Main View](https://github.com/justin3737/CSSPractice/tree/master/examples/04_main_view) ##
 
+* learn how to create HTML/CSS from PSD files
+
 ![image](https://raw.githubusercontent.com/justin3737/CSSPractice/master/img/login_view.jpg)
 ---------------
 
 ## [Confirm Box](https://github.com/justin3737/CSSPractice/tree/master/examples/06_confirm_box) ##
+
+* learn how to create overlay modal 
 
 ![image](https://raw.githubusercontent.com/justin3737/CSSPractice/master/img/confirm_box.png)
 ---------------
