@@ -1,0 +1,36 @@
+$bgImgSize :184px;
+
+.msgWrap{
+	margin : 20px 30px 0 25px;
+}
+
+.msgbox{
+	padding               : 15px;
+	border                : 1px solid #a6a6a6;
+	-webkit-border-radius : 20px;
+	-moz-border-radius    : 20px;
+	box-shadow            : 0px 2px 2px #999;
+	background-color      : #fff;
+	position              : relative;
+	font-size             : 15px;
+	line-height           : 22px;
+	color                 : #000;
+
+	a{
+		color           : #669911;
+		text-decoration : underline;
+	}
+
+	&:after{
+		content         : "";
+		background      : image-url('icon.png') -47px -103px;
+		background-size : $bgImgSize;
+		display         : block;
+		width           : 17px;
+		height          : 24px;
+		position        : absolute;
+		top             : 9px;
+		right           : -17px;
+	};
+
+}

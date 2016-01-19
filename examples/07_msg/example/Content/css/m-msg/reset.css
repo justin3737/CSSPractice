@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v2.0 | 20110126 */
+/* line 16, ../sass/reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  /*background     : transparent;*/
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 29, ../sass/reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 33, ../sass/reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 37, ../sass/reset.scss */
+img {
+  vertical-align: bottom;
+}
+
+/* line 41, ../sass/reset.scss */
+ol, ul {
+  list-style: none;
+  zoom: 1;
+}
+
+/* line 46, ../sass/reset.scss */
+li ul {
+  zoom: 1;
+}
+
+/* line 50, ../sass/reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 57, ../sass/reset.scss */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* remember to define focus styles! */
+/* line 63, ../sass/reset.scss */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+/* line 68, ../sass/reset.scss */
+ins {
+  text-decoration: none;
+}
+
+/* line 72, ../sass/reset.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 76, ../sass/reset.scss */
+sub {
+  vertical-align: sub;
+}
+
+/* line 80, ../sass/reset.scss */
+sup {
+  vertical-align: super;
+}
+
+/* line 84, ../sass/reset.scss */
+sub, sup {
+  font-size: 0.5em;
+  line-height: 100%;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+/* line 90, ../sass/reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*取消Chome最小字級*/
+/* line 96, ../sass/reset.scss */
+* {
+  -webkit-text-size-adjust: none;
+}

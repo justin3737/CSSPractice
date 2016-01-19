@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.btnArea {
+  padding    : 15px 0;
+  display    : block;
+  text-align : center;
+  
+  .btn {
+    display        : inline-block;
+    width          : 70%;
+    height         : 44px;
+    box-shadow     : #ccc 1px 1px 1px;
+    border-radius  : 3px;
+    font-size      : 18px;
+    font-weight    : bold;
+    font-family    : "微軟正黑體";
+    line-height    : 44px;
+    letter-spacing : 2px;
+    cursor         : pointer;
+
+    &.green {
+      background  : -moz-linear-gradient(top, rgba(206,232,152,1) 0%, rgba(156,209,49,1) 3%, rgba(147,198,44,1) 100%); /* FF3.6+ */
+      background  : -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(206,232,152,1)), color-stop(3%,rgba(156,209,49,1)), color-stop(100%,rgba(147,198,44,1))); /* Chrome,Safari4+ */
+      background  : -webkit-linear-gradient(top, rgba(206,232,152,1) 0%,rgba(156,209,49,1) 3%,rgba(147,198,44,1) 100%); /* Chrome10+,Safari5.1+ */
+      border      : 1px solid #86a422;
+      color       : #3b6209;
+      text-shadow : #c0df82 1px 1px 0px;
+    }
+  }
+}
