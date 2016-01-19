@@ -44,6 +44,7 @@ use css attribute
 ## [Main View](https://github.com/justin3737/CSSPractice/tree/master/examples/04_main_view) ##
 
 * learn how to create HTML/CSS from PSD files
+* Use HTML form elements(http://www.w3schools.com/html/html_forms.asp) 
 
 ![image](https://raw.githubusercontent.com/justin3737/CSSPractice/master/img/login_view.jpg)
 ---------------
