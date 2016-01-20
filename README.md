@@ -56,3 +56,9 @@ use css attribute
 ![image](https://raw.githubusercontent.com/justin3737/CSSPractice/master/img/confirm_box.png)
 ---------------
 
+## [Message](https://github.com/justin3737/CSSPractice/tree/master/examples/07_msg) ##
+
+
+![image](https://raw.githubusercontent.com/justin3737/CSSPractice/master/img/msg.jpg)
+---------------
+
