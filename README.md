@@ -41,7 +41,7 @@ use css attribute
 ![image](https://raw.githubusercontent.com/justin3737/CSSPractice/master/img/info_view.jpg)
 ---------------
 
-## [Main View](https://github.com/justin3737/CSSPractice/tree/master/examples/04_main_view) ##
+## [Login View](https://github.com/justin3737/CSSPractice/tree/master/examples/04_login_view) ##
 
 * learn how to create HTML/CSS from PSD files
 * Use HTML form elements(http://www.w3schools.com/html/html_forms.asp) 
