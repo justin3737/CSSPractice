@@ -1,0 +1,55 @@
+@charset "UTF-8";
+body {
+  background: #fafbff;
+  font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+.wrap {
+  width: 365px;
+  height: 593px;
+  background-color: #fff;
+  margin: 0 auto;
+  position: relative;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  -moz-box-shadow: 3px 3px 50px 5px #d4ddf2;
+  -webkit-box-shadow: 3px 3px 50px 5px #d4ddf2;
+  box-shadow: 3px 3px 50px 5px #d4ddf2;
+}
+
+.login-form {
+  width: 290px;
+  margin: 0 auto;
+  color: #82adff;
+}
+.login-form .input-wrap {
+  position: relative;
+}
+.login-form .fa {
+  position: absolute;
+  top: 37px;
+  left: 10px;
+}
+.login-form input[type='text'], .login-form input[type='password'] {
+  width: 290px;
+  height: 60px;
+  margin: 14px 0;
+  padding-left: 30px;
+  border: solid 1px #e0e3ea;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.login-buttom {
+  width: 100%;
+  height: 75px;
+}
+.login-buttom a {
+  width: inherit;
+  height: inherit;
+}
