@@ -1,0 +1,82 @@
+@import 'compass/css3';
+
+body {
+    font-family:Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+/*撰寫時 先不要設display:none */
+
+.dialog-cover {
+    background: rgba(0,0,0,0.3);
+    /*display   : none;*/
+    top       : 0;
+    left      : 0;
+    width     : 100%;
+    height    : 100%;
+    position  : absolute;
+    z-index   : 100;
+}
+
+.dialog-wrap {
+    /*display : none;*/
+    padding : 0 10px;
+    position: absolute;
+    top     : 50%;
+    width   : 100%;
+    z-index : 200;
+    @include box-sizing(border-box);
+
+    .dialog {
+        background: #fff;
+        border    : solid 2px #666;
+        color     : #333;
+        padding   : 20px 10px;
+        margin    : 0 5px;
+        text-align: center;
+        overflow  : hidden;
+        @include border-radius(5px);
+    }
+
+    .dialog-title {
+        font-weight: bold;
+        margin: 0 0 7px;
+    }
+    
+    .dialog-message {
+        font-size: 0.8em;
+        margin: 0 0 20px;
+    }
+
+    .dialog-actions {
+        .dialog-actions-item {
+            float   : left;
+            padding : 0 5px;
+            width   : 50%;
+            @include box-sizing(border-box);
+        }
+
+        .button {
+            font-weight: bold;
+            min-height : 30px;
+            width      : 100%;
+            border     : solid 1px rgba(0,0,0,0.2);
+            color      : #666;
+            cursor     : pointer;
+            @include border-radius(2px);
+        }
+        
+        .button-delete {
+            background: #f36;
+            color: #efefef;
+            &:hover {
+                background: darken(#f36, 5%);
+            }
+        }
+
+        .button-cancel {
+            background: #f7f7f7;
+            &:hover {
+                background: darken(#f7f7f7, 5%);
+            }
+        }
+    }
+}

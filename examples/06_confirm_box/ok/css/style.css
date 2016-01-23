@@ -1,0 +1,86 @@
+@charset "UTF-8";
+body {
+  font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+/*撰寫時 先不要設display:none */
+.dialog-cover {
+  background: rgba(0, 0, 0, 0.3);
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 100;
+}
+.dialog-cover.show {
+  display: block;
+}
+
+.dialog-wrap {
+  display: none;
+  padding: 0 10px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 200;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.dialog-wrap.show {
+  display: block;
+}
+.dialog-wrap .dialog {
+  background: #fff;
+  border: solid 2px #666;
+  color: #333;
+  padding: 20px 10px;
+  margin: 0 5px;
+  text-align: center;
+  overflow: hidden;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.dialog-wrap .dialog-title {
+  font-weight: bold;
+  margin: 0 0 7px;
+}
+.dialog-wrap .dialog-message {
+  font-size: 0.8em;
+  margin: 0 0 20px;
+}
+.dialog-wrap .dialog-actions .dialog-actions-item {
+  float: left;
+  padding: 0 5px;
+  width: 50%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.dialog-wrap .dialog-actions .button {
+  font-weight: bold;
+  min-height: 30px;
+  width: 100%;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  color: #666;
+  cursor: pointer;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+.dialog-wrap .dialog-actions .button-delete {
+  background: #f36;
+  color: #efefef;
+}
+.dialog-wrap .dialog-actions .button-delete:hover {
+  background: #ff1a53;
+}
+.dialog-wrap .dialog-actions .button-cancel {
+  background: #f7f7f7;
+}
+.dialog-wrap .dialog-actions .button-cancel:hover {
+  background: #eaeaea;
+}
