@@ -1,9 +1,0 @@
-@import "icons/*.png";
-
-/* 會合併icons底下所有png, 產生檔名icons-xxxxx.png 的圖 */
-
-/* 
-	如果有另一張圖要合併 可以另存一個資料夾名稱, 新的資料夾名稱將會變成png檔名 
-	ex: @import "new-photo/*.png";
-	產生： new-photo-xxxxx.png
-*/

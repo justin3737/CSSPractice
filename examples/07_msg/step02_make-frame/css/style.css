@@ -47,10 +47,6 @@ body {
   bottom: 0px;
   background: #333;
 }
-.menu-wrap ul {
-  width: inherit;
-  height: inherit;
-}
 .menu-wrap .li-icon {
   width: 25%;
   height: inherit;
