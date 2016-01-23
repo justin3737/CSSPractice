@@ -54,7 +54,10 @@ use css attribute
 ## [Confirm Box](https://github.com/justin3737/CSSPractice/tree/master/examples/06_confirm_box) ##
 
 * learn how to create overlay modal 
+* learn addClass to show dialog
 
+
+[--> online demo](http://htmlpreview.github.io/?https://github.com/justin3737/CSSPractice/blob/master/examples/06_confirm_box/almost_done/index.html)
 ![image](https://raw.githubusercontent.com/justin3737/CSSPractice/master/img/confirm_box.png)
 ---------------
 
