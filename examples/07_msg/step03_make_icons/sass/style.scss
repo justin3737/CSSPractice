@@ -1,0 +1,23 @@
+@import 'compass/css3';
+$img-Height: 64px;
+
+.m-icon {
+	width: 320px;
+	height: 64px;
+	background: #333;
+	li {
+		width: 80px;
+		height: 64px;
+		float: left;
+		background-image: url('../img/icons-s033033d8ab.png');
+	}
+}
+
+.line              {background-position-y: -$img-Height * 0;}
+.line.is-active    {background-position-y: -$img-Height * 1;}
+.member            {background-position-y: -$img-Height * 2;}
+.member.is-active  {background-position-y: -$img-Height * 3;}
+.message           {background-position-y: -$img-Height * 4;}
+.message.is-active {background-position-y: -$img-Height * 5;}
+.options           {background-position-y: -$img-Height * 6;}
+.options.is-active {background-position-y: -$img-Height * 7;}

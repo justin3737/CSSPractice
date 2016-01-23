@@ -1,0 +1,64 @@
+@import 'compass/css3';
+
+body {
+    font-family:Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    display: relative;
+}
+
+.header {
+    top     : 0;
+    width   : 100%;
+    height  : 45px;
+    position: fixed;        /* 固定位置 */
+    background: #93cb18;
+}
+
+.content {
+    width        : 100%;
+    margin-top   : 45px;    /* 撐開 header 的高度 */
+    margin-bottom: 68px;    /* 撐開 menu 的高度 */
+
+    .li-item {
+        line-height  : 50px;
+        height       : 50px;
+        border-bottom: 1px solid #ccc;
+        @include box-sizing(border-box);
+    }
+
+    .person {
+        width     : 50px;
+        height    : 49px;
+        float     :left;
+        background: #efefef;
+    }
+}
+
+.menu-wrap {
+    width     : 100%;
+    height    : 68px;
+    position  : fixed;          /* 固定位置 */
+    bottom    : 0px;
+    background: #333;
+    
+    ul {
+        width : inherit;
+        height: inherit;
+    }
+    .li-icon {
+        width : 25%;
+        height: inherit;
+        border: 1px solid #ddd;
+        float : left;
+        
+        /* 文字 */
+        color: #fff;
+        line-height: 68px;
+        text-align: center;
+
+        @include box-sizing(border-box);
+    }
+}
