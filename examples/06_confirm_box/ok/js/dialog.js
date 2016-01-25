@@ -1,25 +1,25 @@
 (function() {
     
-    var cover = $('.dialog-cover');
-    var frame = $('.dialog-wrap');
+    var $cover = $('.dialog-cover');
+    var $frame = $('.dialog-wrap');
 	
-    frame.css('margin-top', '-' + frame.height() / 2 + 'px');
-    
-    // show the dialog
+    // 顯示對話框
     $('.showDialog').on('click', function() {
-        cover.addClass('show');
-        frame.css('margin-top', '-' + frame.height() / 2 + 'px');
-        frame.addClass('show');
+        $cover.addClass('show');
+        $frame.css('margin-top', '-' + $frame.height() / 2 + 'px');
+        $frame.addClass('show');
+        console.log('高度的一半： ' + $frame.height() / 2);
     });
     
-    frame.on('click', function(e) {
-       e.preventDefault(); 
+    $frame.on('click', function(e) {
+        /* 防止氣泡傳遞*/
+        e.preventDefault(); 
     });
     
     // delete the dialog
     $('.dialog-actions .button').on('click', function() {
-        cover.removeClass('show');
-        frame.removeClass('show');
+        $cover.removeClass('show');
+        $frame.removeClass('show');
     });
 
 })();
