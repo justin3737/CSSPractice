@@ -28,6 +28,7 @@ transition-delay             指定 transition 效果的開始時間。 **/
         color:#fff;
         text-decoration: none;
         display: inline-block;
+        /* 補間動畫 */
         @include transition(all 0.5s);
         @include border-radius(50%);
 

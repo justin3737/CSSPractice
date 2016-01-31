@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <title>Example 03</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="favorite-wrap">
+            <span class="count">432</span>
+            <i class="fa fa-heart-o"></i>
+        </div>
+        <div class="cover-image">
+            <img src="img/dog.jpg" alt="">
+        </div>
+        <div class="menu-wrap">
+            <div class="slip-line"></div>
+            <div class="menu">
+                <ul class="menu-ul">
+                    <li class="list"><a href="http://www.google.com" class="link"><i class="fa fa-picture-o"></i></a></li>
+                    <li class="list"><a href="javascript:;" class="link is-active"><i class="fa fa-camera"></i></a></li>
+                    <li class="list"><a href="javascript:;" class="link"><i class="fa fa-heartbeat"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="../../libs/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function(){
+        // callback 回乎函式 
+        $('.link').on('click', function(evt){
+            /* 停止預設事件 */
+            evt.preventDefault();
+            /* 所有的.link 移除 is-active class */
+            $('.link').removeClass('is-active');
+            $(this).addClass('is-active');
+        });
+    });
+    </script>
+</body>
+</html>
